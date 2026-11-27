@@ -1,0 +1,22 @@
+{
+  "_comment": "RunPod Pod template (REST v1). Run create_template.py or paste values into console.",
+  "category": "NVIDIA",
+  "containerDiskInGb": 40,
+  "dockerEntrypoint": [],
+  "dockerStartCmd": [],
+  "env": {
+    "COMFY_PORT": "8188",
+    "LOWVRAM": "auto"
+  },
+  "imageName": "ghcr.io/kyaha909-svg/krea2-edit:latest",
+  "isPublic": false,
+  "isServerless": false,
+  "name": "Krea 2 Identity Edit V2 - Image Edit ComfyUI",
+  "ports": [
+    "8188/http",
+    "8888/http",
+    "22/tcp"
+  ],
+  "volumeInGb": 50,
+  "volumeMountPath": "/workspace"
+}
